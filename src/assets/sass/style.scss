@@ -1,0 +1,29 @@
+$mobile-end: 550px;
+$tablet-end: 800px;
+
+body{
+  background-image: url('../images/mainimage.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.textHello{
+   color: blue;
+ }
+
+@media screen and (max-width: $mobile-end){
+  .textHello{
+    color: olive;
+  }
+}
+@media screen and (max-width: $mobile-end){
+  .textHello{
+    font-size: 50px;
+  }
+}
